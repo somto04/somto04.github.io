@@ -25,6 +25,19 @@ body
     background-color: rgb(168, 203, 163);
 }
 
+h1
+{
+    text-align: center;
+    font-size: 500%;
+    font-family: fantasy;
+    color: rgb(42, 74, 36);
+}
+
+p
+{
+    text-align: center;
+}
+
 .navbar
 {
     background-color: rgb(52, 90, 45);
@@ -37,6 +50,11 @@ body
     left: 0;
     align-items: center;
     z-index: 1000;
+}
+
+.site-container 
+{
+    padding-top: 60px;
 }
 
 .navButton
