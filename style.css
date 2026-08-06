@@ -20,12 +20,37 @@
     padding: 30px;
 }
 
+body 
+{
+    background-color: rgb(168, 203, 163);
+}
+
 .navbar
 {
-
+    background-color: rgb(52, 90, 45);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 1000;
 }
 
 .navButton
+{
+    height: 50px;
+    width: 125px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: rgb(52, 90, 45);
+    /*background-color: rgb(119, 146, 115);*/
+}
+
+.navButton:hover
 {
 
 }
