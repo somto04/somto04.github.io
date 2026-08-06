@@ -1,6 +1,25 @@
 /*classes = .class*/
 /*id = #id */
 
+/* mobile size */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* tablet size */
+@media (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Desktop styles (default if no media query matches) */
+.container {
+    padding: 30px;
+}
+
 .navbar
 {
 
