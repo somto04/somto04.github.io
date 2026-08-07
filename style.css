@@ -54,7 +54,7 @@ body {
 
 nav,
 h1,
-section {
+section, .modal {
     position: relative;
     z-index: 1;
 }
@@ -67,9 +67,19 @@ h1
     color: var(--dark-brown);
 }
 
+h2
+{
+    text-align: center;
+    font-size: 200%;
+    font-family: fantasy;
+    color: var(--dark-brown);
+    margin-top: 5px;
+}
+
 p
 {
     text-align: center;
+    color: var(--dark-brown);
 }
 
 .navbar
@@ -105,4 +115,17 @@ p
 .navButton:hover
 {
     background-color: var(--light-cream);
+}
+
+.about-card 
+{
+    height: 125px;
+    width: 600px;
+    max-width: 90%;
+    margin: 40px auto;
+    background-color: var(--cream);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px var(--med-brown);
+    text-align: center;
 }
