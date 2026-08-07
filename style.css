@@ -1,0 +1,131 @@
+/*classes = .class*/
+/*id = #id */
+
+/* mobile size */
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+}
+
+/* tablet size */
+@media (max-width: 1024px) {
+    .container {
+        padding: 20px;
+    }
+}
+
+/* Desktop styles (default if no media query matches) */
+.container {
+    padding: 30px;
+}
+
+:root 
+{
+    --light-cream: rgb(228, 208, 187);
+    --cream: rgba(227, 185, 140);
+    --light-brown: rgba(194, 135, 53);
+    --med-brown: rgba(138, 82, 45);
+    --dark-brown: rgb(47, 15, 8);
+}
+
+/* body 
+### for image to stay static ###
+{
+    background-color: rgb(168, 203, 163);
+    background-image: url('artworks/running\ man.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+} */
+
+body {
+    margin: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;   /* Keeps the image's aspect ratio */
+    z-index: -1;    /* Places it behind everything */
+}
+
+nav,
+h1,
+section, .modal {
+    position: relative;
+    z-index: 1;
+}
+
+h1
+{
+    text-align: center;
+    font-size: 500%;
+    font-family: fantasy;
+    color: var(--dark-brown);
+}
+
+h2
+{
+    text-align: center;
+    font-size: 200%;
+    font-family: fantasy;
+    color: var(--dark-brown);
+    margin-top: 5px;
+}
+
+p
+{
+    text-align: center;
+    color: var(--dark-brown);
+}
+
+.navbar
+{
+    background-color: var(--dark-brown);
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    align-items: center;
+    z-index: 1000;
+}
+
+.site-container 
+{
+    padding-top: 60px;
+}
+
+.navButton
+{
+    height: 50px;
+    width: 125px;
+    border-radius: 15px;
+    text-align: center;
+    font-size: 15px;
+    color: var(--dark-brown);
+    background-color: var(--cream);
+}
+
+.navButton:hover
+{
+    background-color: var(--light-cream);
+}
+
+.about-card 
+{
+    height: 125px;
+    width: 600px;
+    max-width: 90%;
+    margin: 40px auto;
+    background-color: var(--cream);
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px var(--med-brown);
+    text-align: center;
+}
