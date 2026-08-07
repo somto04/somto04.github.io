@@ -20,9 +20,41 @@
     padding: 30px;
 }
 
-body 
+:root 
+{
+    --dark-brown: rgba(77, 29, 10);
+    --cream: rgba(227, 185, 140);
+    --med-brown: rgba(138, 82, 45);
+}
+
+/* body 
+### for image to stay static ###
 {
     background-color: rgb(168, 203, 163);
+    background-image: url('artworks/running\ man.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+} */
+
+body {
+    margin: 0;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;   /* Keeps the image's aspect ratio */
+    z-index: -1;    /* Places it behind everything */
+}
+
+nav,
+h1,
+section {
+    position: relative;
+    z-index: 1;
 }
 
 h1
@@ -30,7 +62,8 @@ h1
     text-align: center;
     font-size: 500%;
     font-family: fantasy;
-    color: rgb(42, 74, 36);
+    /* color: rgb(42, 74, 36); */
+    color: rgba(52, 19, 9);
 }
 
 p
@@ -40,7 +73,8 @@ p
 
 .navbar
 {
-    background-color: rgb(52, 90, 45);
+    background-color: rgba(52, 19, 9);
+
     padding: 15px 20px;
     display: flex;
     justify-content: space-around;
@@ -65,7 +99,6 @@ p
     text-align: center;
     font-size: 15px;
     color: rgb(52, 90, 45);
-    /*background-color: rgb(119, 146, 115);*/
 }
 
 .navButton:hover
