@@ -41,6 +41,7 @@
 
 body {
     margin: 0;
+    background-color: var(--med-brown);
 }
 
 .background-image {
@@ -97,6 +98,11 @@ p
 }
 
 .site-container 
+{
+    padding-top: 60px;
+}
+
+.gallery-container
 {
     padding-top: 60px;
 }
