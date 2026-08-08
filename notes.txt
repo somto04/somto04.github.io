@@ -1,1 +1,2 @@
 - could add modals for joinging a mailing list 
+ - recent paintings on index page
