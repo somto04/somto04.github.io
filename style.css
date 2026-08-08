@@ -99,7 +99,7 @@ p
 
 .site-container 
 {
-    padding-top: 60px;
+    padding-top: 50px;
 }
 
 .gallery-container
@@ -109,12 +109,11 @@ p
 
 .gallery-container-contents
 {
-    padding-top: 50px;
     column-count: 3;
-    column-gap: 20px;
+    column-gap: 30px;
     padding-left: 20px;
     padding-right: 20px;
-
+    padding-top: 0px;
 }
 
 .navButton
@@ -155,6 +154,8 @@ p
     border-radius: 15px;
     display: inline-block;
     padding: 15px;
+    padding-top: 15px;
+    padding-bottom: 0px;
 }
 
 .painting-card img 
